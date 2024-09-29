@@ -23,4 +23,23 @@ img {
 
 body {
     font-size: 14px;
+    background-color: var(--colour-grey-900);
+    color: var(--colour-white);
+}
+
+.social-links-card-container {
+    background-color: var(--colour-grey-800);
+}
+
+.user-location {
+    color: var(--colour-green);
+}
+
+.link {
+    background-color: var(--colour-grey-700);
+}
+
+.link:hover {
+    background-color: var(--colour-green);
+    color: var(--colour-grey-900);
 }
