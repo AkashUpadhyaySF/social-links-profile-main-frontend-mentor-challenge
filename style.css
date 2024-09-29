@@ -3,6 +3,14 @@
     src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+:root {
+    --colour-green: hsl(75, 94%, 57%);
+    --colour-white: hsl(0, 0%, 100%);
+    --colour-grey-700: hsl(0, 0%, 20%);
+    --colour-grey-800: hsl(0, 0%, 12%);
+    --colour-grey-900: hsl(0, 0%, 8%);
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -11,4 +19,8 @@
 
 img {
     display: block;
+}
+
+body {
+    font-size: 14px;
 }
