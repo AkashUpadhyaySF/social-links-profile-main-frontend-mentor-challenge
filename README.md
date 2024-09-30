@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [GitHub Page](Add URL here!)
+- Live Site URL: [GitHub Page](https://akashupadhyaysf.github.io/social-links-profile-main-frontend-mentor-challenge/)
 
 ## My process
 
@@ -41,7 +41,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
 
 ## Author
 
