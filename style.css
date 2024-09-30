@@ -31,6 +31,12 @@ body {
     background-color: var(--colour-grey-800);
 }
 
+.user-dp-img {
+    width: 32px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
 .user-location {
     color: var(--colour-green);
 }
