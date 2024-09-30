@@ -25,27 +25,82 @@ body {
     font-size: 14px;
     background-color: var(--colour-grey-900);
     color: var(--colour-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 1rem;
+    font-family: 'Inter', sans-serif;
 }
 
 .social-links-card-container {
     background-color: var(--colour-grey-800);
+    border-radius: 20px;
+    width: 360px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.profile-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
 }
 
 .user-dp-img {
-    width: 32px;
+    width: 80px;
     aspect-ratio: 1;
     border-radius: 50%;
 }
 
+.user-basic-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-name {
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .user-location {
     color: var(--colour-green);
+    font-size: 14px;
+    font-weight: 00;
+    padding-bottom: 1rem;
+}
+
+.user-quick-intro {
+    font-size: 12px;
+    font-weight: 200;
+    color: var(--colour-white);
+}
+
+.profile-social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
 }
 
 .link {
     background-color: var(--colour-grey-700);
+    text-align: center;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    transition-property: background-color, color;
+    font-weight: 500;
 }
 
 .link:hover {
     background-color: var(--colour-green);
     color: var(--colour-grey-900);
+    cursor: pointer;
 }
